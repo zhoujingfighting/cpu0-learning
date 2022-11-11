@@ -1,2 +1,13 @@
 # cpu0-learning
-Recored the preocess of learning Cpu0
+
+
+## llvm IR leaning 
+
+build command line :
+
+```shell
+ clang++ -g -O3 llvm-ir.cpp `llvm-config --cxxflags --ldflags --system-libs --libs core`
+ ```
+
+
+
